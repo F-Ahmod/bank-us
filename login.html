@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-3xl text-center">Welcome To<span
+            class="font-semibold	text-purple-600">Bank US</span>!!!</h1>
+       
+    </header>
+    <main>
+        
+        <section class="bg-green-300 p-2  w-3/4 mx-auto mt-8">
+            <h3 class="">Please login</h3>
+           
+            
+                <div>
+                    <label  for="text">Your Email</label>
+                <br>
+                <input id="user-email" class="w-2/4 border border-black px-2 "  type="text" placeholder="your email">
+                <br>
+                <label for="password">Your Password</label>
+                <br>
+                <input id="user-pass" class="w-2/4 border border-black px-2" type="password" placeholder="password">
+                <br>
+                <button id="login-submit" class="border border-black px-2 mt-2 bg-yellow-400 text-white font-medium">login</button>
+                </div>
+            
+        </section>
+       
+    </main>
+    <!-- <script>
+        document.getElementById('login-submit').addEventListener('click', function(){
+            
+    const emaifield= document.getElementById('user-email');
+    const useremail =emaifield.value;
+    console.log(email);
+
+    const passfield =document.getElementById('user-pass');
+    const userpass =passfield.value;
+    if(useremail=='fateh@gmail.com' && userpass=='fateh'){
+        window.location.href='banking.html';
+    }
+}); -->
+    <!-- </script> -->
+    <script src="js/login.js"></script>
+</body>
+</html>
