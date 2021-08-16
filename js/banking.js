@@ -3,6 +3,7 @@
     document.getElementById('deposit-button').addEventListener('click', function(){
     const depositinput = document.getElementById('deposit-input');
     const newDepositAmountText = depositinput.value;
+    // console.log(newDepositAmountText);
     const newDepositAmount = parseFloat(newDepositAmountText);
     // console.log('click');
 
@@ -50,7 +51,7 @@
     const previousWithdrawAmountTotal=parseFloat(previousWithdrawBalanceText);
     const newWithdrawBalanceTotal = previousWithdrawAmountTotal - newWithdrawAmount;
     withdrawBalanceTotal.innerText=newWithdrawBalanceTotal;
-
+    
     withdrawInput.value = '';
 
     // const balanceTotal = document.getElementById('balance-total');
@@ -63,8 +64,16 @@
 
 
 });
+// panda link
 document.getElementById('login-submit2').addEventListener
 ('click', function(){
     window.location.href= 'panda.html';
     
-    })
+    });
+
+    // bangla bazar link
+    document.getElementById('login-submit3').addEventListener
+('click', function(){
+    window.location.href= 'bazar.html';
+    
+    });
